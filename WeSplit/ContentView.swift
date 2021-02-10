@@ -9,19 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        NavigationView{
         Form {
             Section {
                 Text("Hello World")
-                Text("Hello World")
-                Text("Hello World")
+                }
             }
-            Section{
-                Text("Hello World")
-                Text("Hello World")
-                Text("Hello World")
-            }
-            
-            }
+        .navigationBarTitle(Text("WeSplit"), displayMode: .inline)
+        }
     }
 }
 
